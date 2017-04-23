@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:shrinkColumns="*"
+    android:stretchColumns="2">
+    <TableRow android:id="@+id/row1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/producerLabel"
+            android:text="@string/producerLabelText">
+        </TextView>
+        <EditText android:layout_span="2"
+            android:layout_width="wrap_content"
+            android:text=""
+            android:layout_height="wrap_content"
+            android:id="@+id/producerInput">
+        </EditText>
+    </TableRow>
+    <TableRow android:id="@+id/row2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/phoneModelLabel"
+            android:text="@string/phoneModelLabelText">
+        </TextView>
+        <EditText android:layout_span="2"
+            android:layout_width="wrap_content"
+            android:text=""
+            android:layout_height="wrap_content"
+            android:id="@+id/phoneModelInput">
+        </EditText>
+    </TableRow>
+    <TableRow android:id="@+id/row3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/androidVersionLabel"
+            android:text="@string/androidVersionLabelText"
+            android:linksClickable="true">
+        </TextView>
+        <EditText android:layout_span="2"
+            android:layout_width="wrap_content"
+            android:text=""
+            android:layout_height="wrap_content"
+            android:id="@+id/androidVersionInput">
+        </EditText>
+    </TableRow>
+    <TableRow android:id="@+id/row4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/urlLabel"
+            android:text="@string/urlLabelText">
+        </TextView>
+        <EditText android:layout_span="2"
+            android:layout_width="wrap_content"
+            android:text=""
+            android:layout_height="wrap_content"
+            android:id="@+id/urlInput">
+        </EditText>
+    </TableRow>
+
+    <TableRow android:id="@+id/row5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/urlButtonText"
+            android:id="@+id/urlButton"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/cancelButtonText"
+            android:id="@+id/cancelButton"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/saveButtonText"
+            android:id="@+id/saveButton"
+            />
+
+    </TableRow>
+</TableLayout>

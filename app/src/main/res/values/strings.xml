@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TelephonesDatabase</string>
+    <string name="producerLabelText">Producent</string>
+    <string name="phoneModelLabelText">Model</string>
+    <string name="androidVersionLabelText">Wersja Androida</string>
+    <string name="urlLabelText">WWW</string>
+    <string name="urlButtonText">WWW</string>
+    <string name="cancelButtonText">Anuluj</string>
+    <string name="saveButtonText">Zapisz</string>
+
+    <string name="addPhoneText">Dodaj telefon</string>
+    <string name="wrongUri">Błędny adres strony WWW</string>
+    <string name="formIncorrect">Formularz zawiera błędy</string>
+</resources>
